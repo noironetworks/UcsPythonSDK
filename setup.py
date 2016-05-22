@@ -13,7 +13,7 @@ if sys.version_info < (2, 4) or sys.version_info[0] == 3:
 sys.path.append(os.path.join(os.path.dirname(os.path.abspath(__file__)),r"src/UcsSdk"))
 from Version import __version__
 
-name='UcsSdk'
+name='ucssdk'
 files = ["UcsConfig.cfg", "resources/SyncMoConfig.xml"]
 in_place_scripts = ["UcsHandle.py", "UcsHandle_Edit.py", "WatchUcsGui.py", "UcsHandle.py", "CcoImage.py", "ConvertFromBackup.py"]
 
